@@ -11,6 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "build"
+                echo"App build"
             }
         }
 
